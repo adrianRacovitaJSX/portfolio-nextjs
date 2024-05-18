@@ -11,6 +11,7 @@ import Proceso from "@/components/Proceso";
 import { MdWorkHistory } from "react-icons/md";
 import Footer from "@/components/Footer";
 import { IoConstruct } from "react-icons/io5";
+import { IoIosContact } from "react-icons/io";
 
 export default function Home() {
   
@@ -49,6 +50,11 @@ export default function Home() {
                 name: 'Proceso',
                 link: '#proceso',
                 icon: <IoConstruct />
+              },
+              {
+                name: 'Contacto',
+                link: '#contacto',
+                icon: <IoIosContact />
               },
             ]}
           />
