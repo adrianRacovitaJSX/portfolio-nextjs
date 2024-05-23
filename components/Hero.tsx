@@ -7,7 +7,7 @@ import MagicButtonIcons from "./ui/MagicButtonIcons";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-14 md:pt-36 lg:pt-36 xl:pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -47,15 +47,22 @@ const Hero = () => {
             animaciones de mi portfolio y conocerme más.
           </p>
           <div className="flex gap-3">
-          <a href="#conoceme">
-            <MagicButton
-              title="Cónoce más sobre mí"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
-          <a href="https://github.com/adrianRacovitaJSX" target="_blank"><MagicButtonIcons icon={<FaGithub />} position="right" /></a>
-          <a href="https://www.linkedin.com/in/adri%C3%A1n-liviu-racovita/" target="_blank"><MagicButtonIcons icon={<FaLinkedin />} position="right" /></a>
+            <a href="#sobremi">
+              <MagicButton
+                title="Acerca de mí"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="https://github.com/adrianRacovitaJSX" target="_blank">
+              <MagicButtonIcons icon={<FaGithub />} position="right" otherClasses="z-50" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adri%C3%A1n-liviu-racovita/"
+              target="_blank"
+            >
+              <MagicButtonIcons icon={<FaLinkedin />} position="right" otherClasses="z-50" />
+            </a>
           </div>
         </div>
       </div>

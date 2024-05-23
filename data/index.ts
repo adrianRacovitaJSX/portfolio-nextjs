@@ -178,17 +178,6 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Desarrollador Front-end",
-      desc: "Trabajé en iempresa creando y manteniendo webs con HTML, CSS, JavaScript, React y WordPress, colaborando con diseñadores y desarrolladores.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-      company: 'iempresa',
-      dates: '2021 - 2024',
-      link: 'https://iempresa.net'
-
-    },
-    {
-      id: 2,
       title: "Project Manager",
       desc: "Gestiono proyectos en iempresa, planificando, asignando recursos y liderando equipos para asegurar entregas puntuales y dentro del presupuesto, usando metodologías ágiles.",
       className: "md:col-span-2", 
@@ -197,6 +186,17 @@ export const navItems = [
       dates: '2024 - Actualidad',
       link: 'https://iempresa.net'
     
+    },
+    {
+      id: 2,
+      title: "Desarrollador Front-end",
+      desc: "Trabajé en iempresa creando y manteniendo webs con HTML, CSS, JavaScript, React y WordPress, colaborando con diseñadores y desarrolladores.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+      company: 'iempresa',
+      dates: '2021 - 2024',
+      link: 'https://iempresa.net'
+
     },
     {
       id: 3,
@@ -208,16 +208,6 @@ export const navItems = [
       dates: '2021 - Actualidad',
       link: 'https://aracovita.dev'
 
-    },
-    {
-      id: 4,
-      title: "Account Manager",
-      desc: "He asumido diversas responsabilidades, contribuyendo al desarrollo de software y la gestión de proyectos, trabajando en equipo para entregar productos de alta calidad.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-      company: 'iempresa',
-      dates: '2024 - Actualidad',
-      link: 'https://iempresa.net'
     },
   ];
   

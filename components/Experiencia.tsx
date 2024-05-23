@@ -8,7 +8,7 @@ const Experiencia = () => {
       <h1 className="heading">
         Mi <span className="text-purple">experiencia</span>
       </h1>
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 grid lg:grid-cols-6 grid-cols-1 gap-10">
         {workExperience.map((card) => (
             <Button 
             key={card.id}
@@ -23,7 +23,7 @@ const Experiencia = () => {
                         <h1 className="text-start text-xl md:text-2xl font-bold">
                             {card.title}
                         </h1>
-                        <h3 className="text-start text-xl md:text-2xl"><a className="text-purple" href={card.link} target="_blank">{card.company}</a> | {card.dates}</h3>
+                        <h3 className="text-start text-xl md:text-2xl"><a className="text-purple" href={card.link} target="_blank">{card.company}</a> <br /> {card.dates}</h3>
                     
                         <p className="text-start text-white-100 mt-3 font-semibold">
                             {card.desc}
